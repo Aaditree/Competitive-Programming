@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.Scanner;
+public class Main{
+
+     public static void main(String []args){
+  Scanner sc=new Scanner(System.in);
+  
+  int n=sc.nextInt();
+ int s=0;
+ for(int i=1;i<=n;i++)
+ {
+     s=s+i;
+ }
+ s=s;
+ int sss=s*s;
+ int sum=(n*(n+1)*(2*n+1))/6;
+ int ss=sss-sum;
+ System.out.println(ss);
+       }
+}
